@@ -2,7 +2,7 @@ define(function(require, exports, module) {
     // 引入路由模块
     require('angular/angular-route.min');
     // 注入路由模块
-	var app = angular.module('app', ['ngRoute']);
+    var app = angular.module('app', ['ngRoute']);
 
     // 模拟数据
     var messages = [

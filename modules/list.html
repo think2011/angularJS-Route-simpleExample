@@ -1,0 +1,11 @@
+<div class="list-group">
+    <div ng-repeat="message in messages" class="list-group-item">
+        <span class="pull-left">
+            <small class="text-muted">from {{ message.sender }}</small>
+            <p>{{ message.subject }}</p>
+        </span>
+        <div class="pull-right">
+            <a href="#/views/{{ message.id }}" class="btn btn-success">查看</a>
+        </div>
+    </div>
+</div>
